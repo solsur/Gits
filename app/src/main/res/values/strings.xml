@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Gits</string>
+    <string name="gits">Gits</string>
+    <string name="show_hello_world">Show Hello World!</string>
+    <string name="email_format_check">Email Format Check!</string>
+    <string name="conversion_datetime">Conversion DateTime!</string>
+    <string name="reverse_text">Reverse Text!</string>
+    <string name="palindrome_check">Palindrome Check!</string>
+    <string name="masukkan_nilai_berupa_angka">Masukkan Nilai berupa Angka</string>
+    <string name="cek_hasil">Cek Hasil</string>
+    <string name="hei">Hello World!</string>
+    <string name="kondisi">Kondisi</string>
+    <string name="pilihan2">- Jika input bilangan habis di bagi 5 dan 3 menampilkan kata “Hello World”</string>
+    <string name="pilihan1">- Jika input bilangan habis di bagi 5 menampilkan kata “World”</string>
+    <string name="pilihan">- Jika input bilangan habis di bagi 3 menampilkan kata “Hello”</string>
+    <string name="hasil">Hasil</string>
+    <string name="masukkan_kata">Masukkan Kata</string>
+    <string name="contoh">Contoh</string>
+    <string name="sample"><![CDATA[“Aplikasi” => “isakilpA”]]></string>
+    <string name="sample2"><![CDATA[Katak di balik kataK => Result True (karena palindrom )]]></string>
+    <string name="sample3"><![CDATA[Ubi di balik iBu => Result False (karena bukan palindrome )]]></string>
+    <string name="faizal_surya">Faizal Surya</string>
+</resources>
