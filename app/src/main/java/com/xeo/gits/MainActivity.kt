@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         box3.setOnClickListener {
-            val intent = Intent(this,HelloWorldActivity::class.java)
+            val intent = Intent(this,TimeConversionActivity::class.java)
             startActivity(intent)
         }
 

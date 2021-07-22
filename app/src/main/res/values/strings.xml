@@ -25,4 +25,7 @@
     <string name="kondisiii5">- Format email wajib menggunakan tanda titik ‘.’ setelah ‘@’</string>
     <string name="kondisi6">- Panjang email maksimum 20 karakter sebelum ‘@’</string>
     <string name="kondisi7">- Domain yang diperbolehkan hanya “.co.id” dan “.id”</string>
+    <string name="masukkan_angka">Masukkan angka</string>
+    <string name="_12_00_00_pm_12_00"><![CDATA[12:00:00 PM => 12:00]]></string>
+    <string name="_12_00_00_am_00_00"><![CDATA[12:00:00 AM => 00:00]]></string>
 </resources>
