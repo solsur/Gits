@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HelloWorldActivity">
+    tools:context=".EmailFormatActivity">
 
     <TextView
         android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hei"
+        android:text="@string/email_format_check"
         android:textColor="@color/teal_700"
         android:textStyle="bold"
         android:textSize="24sp"
@@ -21,7 +21,7 @@
         android:layout_marginTop="50dp"/>
 
     <EditText
-        android:id="@+id/etText"
+        android:id="@+id/etTextEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/text"
@@ -35,15 +35,15 @@
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginTop="24dp"
-        android:hint="@string/masukkan_nilai_berupa_angka"
-        android:inputType="number"
+        android:hint="@string/masukkan_email"
+        android:inputType="textEmailAddress"
         tools:ignore="Autofill" />
 
     <Button
-        android:id="@+id/btnResult"
+        android:id="@+id/btnResultEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/etText"
+        app:layout_constraintTop_toBottomOf="@id/etTextEmail"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:background="@drawable/box"
@@ -62,7 +62,7 @@
         android:textSize="16sp"
         android:layout_marginStart="24sp"
         android:layout_marginEnd="24sp"
-        app:layout_constraintTop_toBottomOf="@id/btnResult"
+        app:layout_constraintTop_toBottomOf="@id/btnResultEmail"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="20dp"/>
@@ -71,7 +71,7 @@
         android:id="@+id/kondisi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/pilihan"
+        android:text="@string/format_email_wajib_menggunakan"
         android:textSize="12sp"
         android:layout_marginStart="24sp"
         android:layout_marginEnd="24sp"
@@ -84,27 +84,40 @@
         android:id="@+id/kondisi1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/pilihan1"
+        android:text="@string/kondisiii5"
         android:textSize="12sp"
         android:layout_marginStart="24sp"
         android:layout_marginEnd="24sp"
         app:layout_constraintTop_toBottomOf="@id/kondisi"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="5dp"/>
+        android:layout_marginTop="10dp"/>
 
     <TextView
         android:id="@+id/kondisi2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/pilihan2"
+        android:text="@string/kondisi6"
         android:textSize="12sp"
         android:layout_marginStart="24sp"
         android:layout_marginEnd="24sp"
         app:layout_constraintTop_toBottomOf="@id/kondisi1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="5dp"/>
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/kondisi3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kondisi7"
+        android:textSize="12sp"
+        android:layout_marginStart="24sp"
+        android:layout_marginEnd="24sp"
+        app:layout_constraintTop_toBottomOf="@id/kondisi2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"/>
 
     <TextView
         android:id="@+id/cc"

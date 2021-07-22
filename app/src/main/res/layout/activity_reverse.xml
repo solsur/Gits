@@ -36,7 +36,7 @@
         android:layout_marginEnd="24dp"
         android:layout_marginTop="24dp"
         android:hint="@string/masukkan_kata"
-        android:inputType="number"
+        android:inputType="text"
         tools:ignore="Autofill" />
 
     <Button
@@ -76,33 +76,6 @@
         android:layout_marginStart="24sp"
         android:layout_marginEnd="24sp"
         app:layout_constraintTop_toBottomOf="@id/nb"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="10dp"/>
-
-
-    <TextView
-        android:id="@+id/txtHasil"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hasil"
-        android:textStyle="bold"
-        android:textSize="16sp"
-        android:layout_marginStart="24sp"
-        android:layout_marginEnd="24sp"
-        app:layout_constraintTop_toBottomOf="@id/kondisi"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="20dp"/>
-
-    <TextView
-        android:id="@+id/HasilReverse"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="12sp"
-        android:layout_marginStart="24sp"
-        android:layout_marginEnd="24sp"
-        app:layout_constraintTop_toBottomOf="@id/txtHasil"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="10dp"/>

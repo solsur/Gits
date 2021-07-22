@@ -20,4 +20,9 @@
     <string name="sample2"><![CDATA[Katak di balik kataK => Result True (karena palindrom )]]></string>
     <string name="sample3"><![CDATA[Ubi di balik iBu => Result False (karena bukan palindrome )]]></string>
     <string name="faizal_surya">Faizal Surya</string>
+    <string name="masukkan_email">Masukkan Email</string>
+    <string name="format_email_wajib_menggunakan">- Format email wajib menggunakan ‘@’</string>
+    <string name="kondisiii5">- Format email wajib menggunakan tanda titik ‘.’ setelah ‘@’</string>
+    <string name="kondisi6">- Panjang email maksimum 20 karakter sebelum ‘@’</string>
+    <string name="kondisi7">- Domain yang diperbolehkan hanya “.co.id” dan “.id”</string>
 </resources>

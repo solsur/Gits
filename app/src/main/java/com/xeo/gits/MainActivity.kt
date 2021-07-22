@@ -12,10 +12,22 @@ class MainActivity : AppCompatActivity() {
 
         //Box1
         val box1:Button = findViewById(R.id.box1)
+        val box2:Button = findViewById(R.id.box2)
+        val box3:Button = findViewById(R.id.box3)
         val box4:Button = findViewById(R.id.box4)
         val box5:Button = findViewById(R.id.box5)
 
         box1.setOnClickListener {
+            val intent = Intent(this,HelloWorldActivity::class.java)
+            startActivity(intent)
+        }
+
+        box2.setOnClickListener {
+            val intent = Intent(this,EmailFormatActivity::class.java)
+            startActivity(intent)
+        }
+
+        box3.setOnClickListener {
             val intent = Intent(this,HelloWorldActivity::class.java)
             startActivity(intent)
         }
